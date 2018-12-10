@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC13CDF621BE765700D1995C /* 68441__pinkyfinger__piano-c.wav in Resources */ = {isa = PBXBuildFile; fileRef = AC13CDF521BE765700D1995C /* 68441__pinkyfinger__piano-c.wav */; };
+		AC13CDF821BE7AF300D1995C /* f5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC13CDF721BE7AF200D1995C /* f5.mp3 */; };
 		ACB5606721BD4532003AEFB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB5606621BD4532003AEFB5 /* AppDelegate.swift */; };
 		ACB5606921BD4532003AEFB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB5606821BD4532003AEFB5 /* ViewController.swift */; };
 		ACB5606C21BD4532003AEFB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB5606A21BD4532003AEFB5 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC13CDF521BE765700D1995C /* 68441__pinkyfinger__piano-c.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "68441__pinkyfinger__piano-c.wav"; path = "sounds/68441__pinkyfinger__piano-c.wav"; sourceTree = SOURCE_ROOT; };
+		AC13CDF721BE7AF200D1995C /* f5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = f5.mp3; path = sounds/f5.mp3; sourceTree = SOURCE_ROOT; };
 		ACB5606321BD4532003AEFB5 /* playPianoPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = playPianoPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACB5606621BD4532003AEFB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACB5606821BD4532003AEFB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +107,8 @@
 				ACB5606D21BD4533003AEFB5 /* Assets.xcassets */,
 				ACB5606F21BD4533003AEFB5 /* LaunchScreen.storyboard */,
 				ACB5607221BD4533003AEFB5 /* Info.plist */,
+				AC13CDF521BE765700D1995C /* 68441__pinkyfinger__piano-c.wav */,
+				AC13CDF721BE7AF200D1995C /* f5.mp3 */,
 			);
 			path = playPianoPlay;
 			sourceTree = "<group>";
@@ -229,9 +235,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC13CDF821BE7AF300D1995C /* f5.mp3 in Resources */,
 				ACB5607121BD4533003AEFB5 /* LaunchScreen.storyboard in Resources */,
 				ACB5606E21BD4533003AEFB5 /* Assets.xcassets in Resources */,
 				ACB5606C21BD4532003AEFB5 /* Main.storyboard in Resources */,
+				AC13CDF621BE765700D1995C /* 68441__pinkyfinger__piano-c.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
