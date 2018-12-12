@@ -1,0 +1,23 @@
+
+import Foundation
+import AVFoundation
+
+//    var audioPlayer = AVAudioPlayer()
+
+
+class Piano {
+    
+    
+    let sounds: [String] = [Bundle.main.path(forResource: "c1", ofType: "wav")!, Bundle.main.path(forResource: "c1s", ofType: "wav")!, Bundle.main.path(forResource: "d1", ofType: "wav")!, Bundle.main.path(forResource: "d1s", ofType: "wav")!, Bundle.main.path(forResource: "e1", ofType: "wav")!, Bundle.main.path(forResource: "f1", ofType: "wav")!, Bundle.main.path(forResource: "f1s", ofType: "wav")!, Bundle.main.path(forResource: "g1", ofType: "wav")!, Bundle.main.path(forResource: "g1s", ofType: "wav")!, Bundle.main.path(forResource: "a1", ofType: "wav")!, Bundle.main.path(forResource: "a1s", ofType: "wav")!]
+    
+    var audioPlayer = AVAudioPlayer()
+    
+    func playSound (s: [String]) {
+        
+        do {
+            audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: ))
+        }
+        
+    }
+    
+}

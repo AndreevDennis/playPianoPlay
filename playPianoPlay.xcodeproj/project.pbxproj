@@ -7,15 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AC13CDF621BE765700D1995C /* 68441__pinkyfinger__piano-c.wav in Resources */ = {isa = PBXBuildFile; fileRef = AC13CDF521BE765700D1995C /* 68441__pinkyfinger__piano-c.wav */; };
-		AC13CDF821BE7AF300D1995C /* f5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC13CDF721BE7AF200D1995C /* f5.mp3 */; };
+		AC5AC55E21C13B350066BEC4 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5AC55D21C13B350066BEC4 /* Model.swift */; };
 		ACB5606721BD4532003AEFB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB5606621BD4532003AEFB5 /* AppDelegate.swift */; };
 		ACB5606921BD4532003AEFB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB5606821BD4532003AEFB5 /* ViewController.swift */; };
 		ACB5606C21BD4532003AEFB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB5606A21BD4532003AEFB5 /* Main.storyboard */; };
 		ACB5606E21BD4533003AEFB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACB5606D21BD4533003AEFB5 /* Assets.xcassets */; };
-		ACB5607121BD4533003AEFB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB5606F21BD4533003AEFB5 /* LaunchScreen.storyboard */; };
-		ACB5607C21BD4533003AEFB5 /* playPianoPlayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB5607B21BD4533003AEFB5 /* playPianoPlayTests.swift */; };
-		ACB5608721BD4533003AEFB5 /* playPianoPlayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB5608621BD4533003AEFB5 /* playPianoPlayUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,21 +32,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AC13CDF521BE765700D1995C /* 68441__pinkyfinger__piano-c.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "68441__pinkyfinger__piano-c.wav"; path = "sounds/68441__pinkyfinger__piano-c.wav"; sourceTree = SOURCE_ROOT; };
-		AC13CDF721BE7AF200D1995C /* f5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = f5.mp3; path = sounds/f5.mp3; sourceTree = SOURCE_ROOT; };
+		AC03B82C21C13F0200D14D5F /* c1s.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = c1s.wav; sourceTree = "<group>"; };
+		AC03B82D21C13F0300D14D5F /* a1s.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = a1s.wav; sourceTree = "<group>"; };
+		AC03B82E21C13F0300D14D5F /* f1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = f1.wav; sourceTree = "<group>"; };
+		AC03B82F21C13F0300D14D5F /* c2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = c2.wav; sourceTree = "<group>"; };
+		AC03B83021C13F0300D14D5F /* c1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = c1.wav; sourceTree = "<group>"; };
+		AC03B83121C13F0300D14D5F /* e1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = e1.wav; sourceTree = "<group>"; };
+		AC03B83221C13F0400D14D5F /* a1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = a1.wav; sourceTree = "<group>"; };
+		AC03B83321C13F0400D14D5F /* f1s.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = f1s.wav; sourceTree = "<group>"; };
+		AC03B83421C13F0400D14D5F /* g1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = g1.wav; sourceTree = "<group>"; };
+		AC03B83521C13F0500D14D5F /* b1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = b1.wav; sourceTree = "<group>"; };
+		AC03B83621C13F0500D14D5F /* g1s.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = g1s.wav; sourceTree = "<group>"; };
+		AC03B83721C13F0500D14D5F /* d1s.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = d1s.wav; sourceTree = "<group>"; };
+		AC03B83821C13F0500D14D5F /* d1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = d1.wav; sourceTree = "<group>"; };
+		AC5AC55D21C13B350066BEC4 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		ACB5606321BD4532003AEFB5 /* playPianoPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = playPianoPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACB5606621BD4532003AEFB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACB5606821BD4532003AEFB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ACB5606B21BD4532003AEFB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACB5606D21BD4533003AEFB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		ACB5607021BD4533003AEFB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACB5607221BD4533003AEFB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACB5607721BD4533003AEFB5 /* playPianoPlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = playPianoPlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		ACB5607B21BD4533003AEFB5 /* playPianoPlayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playPianoPlayTests.swift; sourceTree = "<group>"; };
-		ACB5607D21BD4533003AEFB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACB5608221BD4533003AEFB5 /* playPianoPlayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = playPianoPlayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		ACB5608621BD4533003AEFB5 /* playPianoPlayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playPianoPlayUITests.swift; sourceTree = "<group>"; };
-		ACB5608821BD4533003AEFB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,12 +81,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC03B82B21C13F0200D14D5F /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				AC03B83221C13F0400D14D5F /* a1.wav */,
+				AC03B82D21C13F0300D14D5F /* a1s.wav */,
+				AC03B83521C13F0500D14D5F /* b1.wav */,
+				AC03B83021C13F0300D14D5F /* c1.wav */,
+				AC03B82C21C13F0200D14D5F /* c1s.wav */,
+				AC03B82F21C13F0300D14D5F /* c2.wav */,
+				AC03B83821C13F0500D14D5F /* d1.wav */,
+				AC03B83721C13F0500D14D5F /* d1s.wav */,
+				AC03B83121C13F0300D14D5F /* e1.wav */,
+				AC03B82E21C13F0300D14D5F /* f1.wav */,
+				AC03B83321C13F0400D14D5F /* f1s.wav */,
+				AC03B83421C13F0400D14D5F /* g1.wav */,
+				AC03B83621C13F0500D14D5F /* g1s.wav */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		ACB5605A21BD4532003AEFB5 = {
 			isa = PBXGroup;
 			children = (
 				ACB5606521BD4532003AEFB5 /* playPianoPlay */,
-				ACB5607A21BD4533003AEFB5 /* playPianoPlayTests */,
-				ACB5608521BD4533003AEFB5 /* playPianoPlayUITests */,
 				ACB5606421BD4532003AEFB5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,32 +124,13 @@
 			children = (
 				ACB5606621BD4532003AEFB5 /* AppDelegate.swift */,
 				ACB5606821BD4532003AEFB5 /* ViewController.swift */,
+				AC5AC55D21C13B350066BEC4 /* Model.swift */,
 				ACB5606A21BD4532003AEFB5 /* Main.storyboard */,
 				ACB5606D21BD4533003AEFB5 /* Assets.xcassets */,
-				ACB5606F21BD4533003AEFB5 /* LaunchScreen.storyboard */,
 				ACB5607221BD4533003AEFB5 /* Info.plist */,
-				AC13CDF521BE765700D1995C /* 68441__pinkyfinger__piano-c.wav */,
-				AC13CDF721BE7AF200D1995C /* f5.mp3 */,
+				AC03B82B21C13F0200D14D5F /* New Group */,
 			);
 			path = playPianoPlay;
-			sourceTree = "<group>";
-		};
-		ACB5607A21BD4533003AEFB5 /* playPianoPlayTests */ = {
-			isa = PBXGroup;
-			children = (
-				ACB5607B21BD4533003AEFB5 /* playPianoPlayTests.swift */,
-				ACB5607D21BD4533003AEFB5 /* Info.plist */,
-			);
-			path = playPianoPlayTests;
-			sourceTree = "<group>";
-		};
-		ACB5608521BD4533003AEFB5 /* playPianoPlayUITests */ = {
-			isa = PBXGroup;
-			children = (
-				ACB5608621BD4533003AEFB5 /* playPianoPlayUITests.swift */,
-				ACB5608821BD4533003AEFB5 /* Info.plist */,
-			);
-			path = playPianoPlayUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,11 +237,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC13CDF821BE7AF300D1995C /* f5.mp3 in Resources */,
-				ACB5607121BD4533003AEFB5 /* LaunchScreen.storyboard in Resources */,
 				ACB5606E21BD4533003AEFB5 /* Assets.xcassets in Resources */,
 				ACB5606C21BD4532003AEFB5 /* Main.storyboard in Resources */,
-				AC13CDF621BE765700D1995C /* 68441__pinkyfinger__piano-c.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC5AC55E21C13B350066BEC4 /* Model.swift in Sources */,
 				ACB5606921BD4532003AEFB5 /* ViewController.swift in Sources */,
 				ACB5606721BD4532003AEFB5 /* AppDelegate.swift in Sources */,
 			);
@@ -273,7 +273,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACB5607C21BD4533003AEFB5 /* playPianoPlayTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +280,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACB5608721BD4533003AEFB5 /* playPianoPlayUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,14 +305,6 @@
 				ACB5606B21BD4532003AEFB5 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		ACB5606F21BD4533003AEFB5 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ACB5607021BD4533003AEFB5 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
