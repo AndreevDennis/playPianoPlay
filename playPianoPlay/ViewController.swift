@@ -1,40 +1,17 @@
 
 import UIKit
 import AVFoundation
-//ccoooc
 class ViewController: UIViewController {
     
-
+    @IBOutlet weak var labelNote: UILabel!
     
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
-
-    
+    let play = Piano()
     
     @IBAction func С(_ sender: UIButton) {
-        
+        labelNote.text = ""
+        play.playSound(tag: sender.tag)
+        labelNote.text = sender.titleLabel?.text
     }
-    
-    
-    //    @IBAction func c(_ sender: UIButton) {
-    //        labelNoteName.text = ""
-    
-    //        do {
-    //            audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: noteC!))
-    //        } catch {
-    //            print(error)
-    //        }
-    //        audioPlayer.play()
-    
-    
-    
-    //        labelNoteName.text?.append("C")
-    //    }
-
-    
-    
 }
 
 
