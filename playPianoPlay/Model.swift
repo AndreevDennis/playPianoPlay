@@ -2,10 +2,8 @@
 import Foundation
 import AVFoundation
 
-//    var audioPlayer = AVAudioPlayer()
-
-
 class Piano {
+   
     
     let sounds: [String] =
         [Bundle.main.path(forResource: "c1", ofType: "wav") ?? "",
@@ -24,13 +22,16 @@ class Piano {
     var audioPlayer = AVAudioPlayer()
     
     func playSound (tag: Int) {
-        
         do {
             audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: sounds[tag]))
         } catch {
             print(error)
         }
         audioPlayer.play()
+        //print(audioPlayer.description)
+        // audioPlayer.durationdadad
+        //audioPlayer.numbefLoops = 1
+        //audioPlayer.enableRate = true
+        //audioPlayer.prepareToPlay()
     }
-    
 }
