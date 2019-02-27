@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1960212A2225C003006950EC /* 123.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 196021292225C003006950EC /* 123.mp3 */; };
+		1960212E2225C3FE006950EC /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1960212D2225C3FE006950EC /* Launch Screen.storyboard */; };
+		19E8EF512225CB970028DB34 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E8EF502225CB970028DB34 /* SecondViewController.swift */; };
 		AC5AC55E21C13B350066BEC4 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5AC55D21C13B350066BEC4 /* Model.swift */; };
 		ACB5606721BD4532003AEFB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB5606621BD4532003AEFB5 /* AppDelegate.swift */; };
 		ACB5606921BD4532003AEFB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB5606821BD4532003AEFB5 /* ViewController.swift */; };
@@ -44,6 +47,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		196021292225C003006950EC /* 123.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 123.mp3; path = ../../../123.mp3; sourceTree = "<group>"; };
+		1960212D2225C3FE006950EC /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		19E8EF502225CB970028DB34 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		AC5AC55D21C13B350066BEC4 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		ACB5606321BD4532003AEFB5 /* playPianoPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = playPianoPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACB5606621BD4532003AEFB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -115,7 +121,9 @@
 			children = (
 				ACB5606621BD4532003AEFB5 /* AppDelegate.swift */,
 				ACB5606821BD4532003AEFB5 /* ViewController.swift */,
+				19E8EF502225CB970028DB34 /* SecondViewController.swift */,
 				AC5AC55D21C13B350066BEC4 /* Model.swift */,
+				1960212D2225C3FE006950EC /* Launch Screen.storyboard */,
 				ACB5606A21BD4532003AEFB5 /* Main.storyboard */,
 				ACB5606D21BD4533003AEFB5 /* Assets.xcassets */,
 				ACB5607221BD4533003AEFB5 /* Info.plist */,
@@ -134,6 +142,7 @@
 				ACBC334D2225812F007EB1C3 /* c2.wav */,
 				ACBC33502225812F007EB1C3 /* d1.wav */,
 				ACBC33542225812F007EB1C3 /* d1s.wav */,
+				196021292225C003006950EC /* 123.mp3 */,
 				ACBC33512225812F007EB1C3 /* e1.wav */,
 				ACBC334C2225812F007EB1C3 /* f1.wav */,
 				ACBC334E2225812F007EB1C3 /* f1s.wav */,
@@ -249,6 +258,7 @@
 			files = (
 				ACBC335F2225812F007EB1C3 /* c1.wav in Resources */,
 				ACBC33602225812F007EB1C3 /* d1s.wav in Resources */,
+				1960212A2225C003006950EC /* 123.mp3 in Resources */,
 				ACBC33572225812F007EB1C3 /* a1.wav in Resources */,
 				ACBC33582225812F007EB1C3 /* f1.wav in Resources */,
 				ACBC335E2225812F007EB1C3 /* g1.wav in Resources */,
@@ -256,6 +266,7 @@
 				ACBC335B2225812F007EB1C3 /* c1s.wav in Resources */,
 				ACB5606E21BD4533003AEFB5 /* Assets.xcassets in Resources */,
 				ACBC335D2225812F007EB1C3 /* e1.wav in Resources */,
+				1960212E2225C3FE006950EC /* Launch Screen.storyboard in Resources */,
 				ACBC335C2225812F007EB1C3 /* d1.wav in Resources */,
 				ACBC33562225812F007EB1C3 /* g1s.wav in Resources */,
 				ACBC335A2225812F007EB1C3 /* f1s.wav in Resources */,
@@ -285,6 +296,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19E8EF512225CB970028DB34 /* SecondViewController.swift in Sources */,
 				AC5AC55E21C13B350066BEC4 /* Model.swift in Sources */,
 				ACB5606921BD4532003AEFB5 /* ViewController.swift in Sources */,
 				ACB5606721BD4532003AEFB5 /* AppDelegate.swift in Sources */,

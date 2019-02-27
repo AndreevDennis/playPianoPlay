@@ -3,7 +3,6 @@ import Foundation
 import AVFoundation
 
 class Piano {
-   
     
     let sounds: [String] =
         [Bundle.main.path(forResource: "c1", ofType: "wav") ?? "",
@@ -17,7 +16,7 @@ class Piano {
          Bundle.main.path(forResource: "g1s", ofType: "wav") ?? "",
          Bundle.main.path(forResource: "a1", ofType: "wav") ?? "",
          Bundle.main.path(forResource: "a1s", ofType: "wav") ?? "",
-         Bundle.main.path(forResource: "b1", ofType: "wav") ?? ""]
+         Bundle.main.path(forResource: "123", ofType: "mp3") ?? ""]
     
     var audioPlayer = AVAudioPlayer()
     
@@ -25,13 +24,11 @@ class Piano {
         do {
             audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: sounds[tag]))
         } catch {
-            print(error)
+            print("error")
         }
         audioPlayer.play()
-        //print(audioPlayer.description)
-        // audioPlayer.durationdadad
-        //audioPlayer.numbefLoops = 1
-        //audioPlayer.enableRate = true
-        //audioPlayer.prepareToPlay()
+//        audioPlayer.enableRate = true
+        audioPlayer.prepareToPlay()
     }
 }
+
